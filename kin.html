@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fitness kingdom</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    
+    body{
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background-image: url("aditya.jpg");
+    }
+    .left{
+        display: inline-block;
+        position: absolute;
+        left: 34px;
+        top: 20px;       
+    }
+    .left img{
+        width: 140px;
+        height: 100px;
+    } 
+    .left div{
+        text-align: center;
+    }
+
+    .mid{
+        display: block;
+        width: 38%;
+        margin: 20px auto;
+    } 
+    .right{
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+    } 
+    .navbar{
+        display: inline-block;
+    }
+
+    .navbar li{
+        display: inline-block;
+       font-size: 17px; 
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+
+    }
+    .navbar li a:hover,  .navbar li a.active{
+        text-decoration: underline;
+        COLOR: grey;
+        
+
+    }
+    .btn{
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color: grey;       
+    }
+    .container{
+        margin: 80px -200px;
+        padding: 75px;
+        width: 53%;
+    }
+    .form-group input{
+        text-align: center;
+        display: block;
+        width: 350px;
+        padding: 10px;
+        margin: 3px auto;
+    }
+    .container h1{
+        text-align: center;        
+    }
+   .container button{
+        display: block;
+        width: 23%;
+        margin: auto;
+    }   
+</style>
+<body>
+    <header class="header">
+        <!--left box for logo-->
+        <div class="left">
+            <img src="logo.jpg" alt="">
+             
+            <div>fitness kingdom</div>
+
+    </div>
+<!--mid box for nav bar-->
+    <div class="mid">
+    <ul class="navbar">
+        <li><a href="#" class="active">Home</a></li>
+<li><a href="#">About us</a></li>
+        <li><a href="#">other services</a></li>
+        <li><a href="#">contact us</a></li>
+    </ul>
+    </div>
+    <!--right box for buttons-->
+    <div class="right">
+        <button class="btn">call us </button>
+        <button class="btn">email us</button>       
+    </div>
+    </header>
+    <div class="container">
+        <h1>Fill the form to join us now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Height">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Weight">
+            </div>
+            <button class="btn">submit</button>
+        </form>
+    </div>
+
+    
+</body>
+</html>
